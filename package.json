@@ -1,0 +1,25 @@
+{
+  "name": "@andrevargas/tslint-config-react",
+  "version": "0.0.1",
+  "description": "My TSLint config for React + TypeScript projects",
+  "main": "tslint.json",
+  "files": [
+    "tslint.json"
+  ],
+  "repository": "https://github.com/andrevargas/tslint-config-react.git",
+  "author": "André Vargas <andrelv510@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "prettier": "^1.15.2",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.16.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.1.6"
+  },
+  "peerDependencies": {
+    "prettier": ">=1",
+    "tslint": ">=5"
+  }
+}
